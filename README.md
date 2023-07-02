@@ -457,8 +457,11 @@ This project consists of a network prototype of an enterprise network. The netwo
 </p>
 <br />
 <br />
- 
+ <!--
 <h2>Security Implementations</h2>
-
-- <b>[SSH & Port Security Configuration](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964)</b> 
-- <b>[ACL Configuration](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964)</b> 
+-->
+<!--
+- <b>[SSH & Port Security Configuration](https://github.com/Iknowmyname/)</b> 
+- <b>[ACL Configuration](https://github.com/Iknowmyname/)</b>
+- 
+-->
