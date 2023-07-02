@@ -35,7 +35,8 @@ This project consists of a network prototype of an enterprise network. The netwo
 <h2>IP Addressing Table </h2>
 
 <h4>KL-Site</h4>
-```bash
+
+
 
 | VLAN ID | NAME           | NETWORK ID     | SUBNET MASK   | DEFAULT GATEWAY | IP RANGE                  |
 | ------- | -------------- | -------------- | ------------- | --------------- | ------------------------- |
@@ -47,7 +48,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 | 100     | Blackhole      |                |               |                 |                           |
 
 
-```
+
 
 
 
