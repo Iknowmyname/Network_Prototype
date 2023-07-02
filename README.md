@@ -225,7 +225,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL-Site-InterVLAN-Routing.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -238,7 +238,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL-Server-Farm-LAN.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -255,7 +255,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL-WebServer.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -265,7 +265,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL-DNS.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -275,7 +275,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL-FT.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -297,7 +297,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL%20Sever%20Farm%20Trunking%20Port%20Configuration%20in%20Switch.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -311,7 +311,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL%20Server%20Farm%20InterVLAN%20Routing%20Configuration.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -323,7 +323,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi%20Site%20WLAN.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -336,7 +336,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi-Site%20VLAN%20Management.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -347,7 +347,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi%20Trunking%20Port%20Configuration.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -358,7 +358,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi%20Site%20InterVLAN%20Routing%20Configuration.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -372,7 +372,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi%20Radius%20Server.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -383,7 +383,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/WAN%20Configurations.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -402,7 +402,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Hanoi%20Router%20OSPF.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -414,7 +414,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/KL%20Router%20OSPF.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -427,7 +427,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Server%20Farm%20Router%20OSPF.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -440,7 +440,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/ISP1%20Router%20OSPF.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -453,7 +453,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/ISP2%20Router%20OSPF.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
