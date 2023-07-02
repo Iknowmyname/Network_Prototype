@@ -27,11 +27,52 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Nmap-Scans-M2/blob/main/Service%20%26%20Version%20Detection%20Scan.PNG" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Network_Topology.png" height="65%" width="65%" alt="sV"/>
 </p>
 
 
 <h2>VLAN Management</h2>
+
+<h3>KL-Distributed-Switch</h3>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h3>KL-Distributed-Switch</h3>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h3>KL-Distributed-Switch</h3>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h3>KL-Distributed-Switch</h3>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
 
 
 
