@@ -27,7 +27,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Network-Topology.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Network-Topology.PNG" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
