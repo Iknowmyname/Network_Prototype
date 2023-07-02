@@ -29,6 +29,23 @@ This project consists of a network prototype of an enterprise network. The netwo
 <p align="center">
 <img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Network_Topology.png" height="65%" width="65%" alt="sV"/>
 </p>
+<br />
+<br />
+
+<h2>IP Addressing Table </h2>
+
+```bash
+
+VLAN ID	NAME	NETWORK ID	SUBNET MASK	DEFAULT GATEWAY	IP RANGE
+10	KL-Management	172.16.50.1/24	255.255.255.0	172.16.50.1	172.16.50.2-172.16.50.254
+20	KL-HR	172.16.1.1/24	255.255.255.0	172.16.1.1	172.16.1.2-172.16.1.254
+30	KL-Design	172.16.2.1/24	255.255.255.0	172.16.2.1	172.16.2.2-172.16.2.254
+40	KL-Manufacture	172.16.3.1/24	255.255.255.0	172.16.3.1	172.16.3.2-172.16.3.254
+99	Native				
+100	Blackhole				
+
+
+```
 
 
 <h2>VLAN Management</h2>
