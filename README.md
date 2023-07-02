@@ -167,7 +167,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/Kl-Site-LAN.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
@@ -286,7 +286,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN%20Management%20KL-Server%20Farm.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
