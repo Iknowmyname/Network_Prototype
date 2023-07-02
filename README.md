@@ -175,32 +175,42 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 
-<h3>KL-Distributed-Switch</h3>
+<h3>KL-HR-Switch</h3>
 
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-HR.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
 
-<h3>KL-Distributed-Switch</h3>
+<h3>KL-Design-Switch</h3>
 
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Design.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
 
-<h3>KL-Distributed-Switch</h3>
+<h3>KL-Manufacture-Switch</h3>
 
 <br />
 <br />
 <p align="center">
-<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h3>Hanoi-Multilayered-Switch</h3>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
 </p>
 <br />
 <br />
