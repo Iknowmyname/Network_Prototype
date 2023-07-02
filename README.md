@@ -162,6 +162,21 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 
 
+<h2> KL Site LAN</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Distributed.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<p>The LAN in the KL site has a total of 4 switches where 3 of the switches are designated to each department which are HR, Design and Manufacture. There fourth switch acts as a distribution where the access layer is connected to the core layer. Four VLANs are created for each department and also one as the management VLAN. The ports which are a switch-to-switch connection are configured as trunk ports in order to carry multiple VLANSs in a single interface whereas the switch-to-end devices connections are configured as access ports to only access the respective VLAN.  InterVLAN routing is configured in the KL-Router to enable end devices from different departments to communicate with each other.</p>
+
+
+
 
 <h2>VLAN Management</h2>
 
