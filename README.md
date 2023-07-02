@@ -44,8 +44,8 @@ This project consists of a network prototype of an enterprise network. The netwo
 | 20      | KL-HR          | 172.16.1.1/24  | 255.255.255.0 | 172.16.1.1      | 172.16.1.2-172.16.1.254   |
 | 30      | KL-Design      | 172.16.2.1/24  | 255.255.255.0 | 172.16.2.1      | 172.16.2.2-172.16.2.254   |
 | 40      | KL-Manufacture | 172.16.3.1/24  | 255.255.255.0 | 172.16.3.1      | 172.16.3.2-172.16.3.254   |
-| 99      | Native         |                |               |                 |                           |
-| 100     | Blackhole      |                |               |                 |                           |
+| 99      | Native         |       -        |       -       |        -        |              -            |
+| 100     | Blackhole      |       -        |       -       |        -        |              -            |
 
 <br />
 <br />
@@ -88,7 +88,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 | VLAN ID | NAME            | NETWORK ID      | SUBNET MASK   | DEFAULT GATEWAY | IP RANGE                    |
 | ------- | --------------- | --------------- | ------------- | --------------- | --------------------------- |
 | 10      | KL -Server Farm | 198.51.100.1/24 | 255.255.255.0 | 198.51.100.1    | 198.51.100.2-198.51.100.254 |
-| 999     | Blackhole       |                 |               |                 |                             |
+| 999     | Blackhole       |         -       |        -      |        -        |               -             |
 
 <br />
 <br />
@@ -127,7 +127,7 @@ This project consists of a network prototype of an enterprise network. The netwo
 | ------- | ------------ | ---------------- | ------------- | --------------- | ----------------------------- |
 | 10      | R&D          | 192.168.10.1/24  | 255.255.255.0 | 192.168.10.1    | 192.168.10.2-192.168.10.254   |
 | 100     | RBManagement | 192.168.100.1/24 | 255.255.255.0 | 192.168.100.1   | 192.168.100.2-192.168.100.254 |
-| 999     | Blackhole    |                  |               |                 |                               |
+| 999     | Blackhole    |         -        |        -      |         -       |               -               |
 
 <br />
 <br />
