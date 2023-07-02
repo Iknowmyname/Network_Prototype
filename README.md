@@ -48,8 +48,83 @@ This project consists of a network prototype of an enterprise network. The netwo
 | 100     | Blackhole      |                |               |                 |                           |
 
 
+<h4>KL-Site-Switch-Virtual-Interfaces</h4>
+
+| NAME           | NETWORK ID      | DEFAULT GATEWAY |
+| -------------- | --------------- | --------------- |
+| KL-SW1         | 172.16.50.12/24 | 172.16.50.1     |
+| KL-SW2         | 172.16.50.13/24 | 172.16.50.1     |
+| KL-SW3         | 172.16.50.14/24 | 172.16.50.1     |
+| SW-Distributed | 172.16.50.15/24 | 172.16.50.1     |
+
+<h4>KL-Router-Sub-Interface</h4>
+
+| Sub-Interface | IP ADDRESS     | SUBNET MASK   |
+| ------------- | -------------- | ------------- |
+| F0/0.10       | 172.16.50.1/24 | 255.255.255.0 |
+| F0/0.20       | 172.16.1.1/24  | 255.255.255.0 |
+| F0/0.30       | 172.16.2.1/24  | 255.255.255.0 |
+| F0/0.40       | 172.16.3.1/24  | 255.255.255.0 |
+
+<h4>KL-Serial-Interface</h4>
+
+| Serial Interface | IP ADDRESS       | SUBNET MASK     |
+| ---------------- | ---------------- | --------------- |
+| Serial2/0        | 200.100.100.1/30 | 255.255.255.252 |
+
+<h4>KL-Server-Farm</h4>
+
+| VLAN ID | NAME            | NETWORK ID      | SUBNET MASK   | DEFAULT GATEWAY | IP RANGE                    |
+| ------- | --------------- | --------------- | ------------- | --------------- | --------------------------- |
+| 10      | KL -Server Farm | 198.51.100.1/24 | 255.255.255.0 | 198.51.100.1    | 198.51.100.2-198.51.100.254 |
+| 999     | Blackhole       |                 |               |                 |                             |
+
+<h4>KL-Server-Farm-Switch-Virtual-Interface</h4>
+
+| NAME   | IP ADDRESS       | DEFAULT GATEWAY |
+| ------ | ---------------- | --------------- |
+| SF-SW1 | 198.51.100.12/24 | 198.51.100.1    |
+
+<h4>KL-Server-Farm-Router-Sub-Interface/h4>
+
+| Sub-Interface | IP ADDRESS      | SUBNET MASK   |
+| ------------- | --------------- | ------------- |
+| F0/0.50       | 198.51.100.1/24 | 255.255.255.0 |
+
+<h4>KL-Server-Farm-Router-Serial-Interface</h4>
+
+| Serial Interface | IP ADDRESS       | SUBNET MASK     |
+| ---------------- | ---------------- | --------------- |
+| Serial2/0        | 200.100.100.2/30 | 255.255.255.252 |
+| Serial3/0        | 200.100.100.5/30 | 255.255.255.252 |
+
+<h4>Hanoi-Site</h4>
+
+| VLAN ID | NAME         | NETWORK ID       | SUBNET MASK   | DEFAULT GATEWAY | IP RANGE                      |
+| ------- | ------------ | ---------------- | ------------- | --------------- | ----------------------------- |
+| 10      | R&D          | 192.168.10.1/24  | 255.255.255.0 | 192.168.10.1    | 192.168.10.2-192.168.10.254   |
+| 100     | RBManagement | 192.168.100.1/24 | 255.255.255.0 | 192.168.100.1   | 192.168.100.2-192.168.100.254 |
+| 999     | Blackhole    |                  |               |                 |                               |
 
 
+<h4>Hanoi-Site-Switch-Virtual-Interface</h4>
+
+| NAME           | IP ADDRESS         | DEFAULT GATEWAY |
+| -------------- | ------------------ | --------------- |
+| Hanoi-MLayerSW | 192.168.100.100/24 | 192.168.100.1   |
+
+<h4>Hanoi-Site-Router-Sub-Interface</h4>
+
+| Sub-Interface | IP ADDRESS       | SUBNET MASK   |
+| ------------- | ---------------- | ------------- |
+| F0/0.10       | 192.168.10.1/24  | 255.255.255.0 |
+| F0/0.100      | 192.168.100.1/24 | 255.255.255.0 |
+
+<h4>Hanoi-Site-Router-Serial-Interface</h4>
+
+| Serial Interface | IP ADDRESS        | SUBNET MASK     |
+| ---------------- | ----------------- | --------------- |
+| Serial2/0        | 200.100.100.14/30 | 255.255.255.252 |
 
 
 
