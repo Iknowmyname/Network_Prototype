@@ -220,7 +220,93 @@ This project consists of a network prototype of an enterprise network. The netwo
 <br />
 <br />
 
-<h3>Hanoi-Multilayered-Switch</h3>
+<h2>KL Site InterVLAN Routing</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>The router on a stick configuration method is implemented in the KL Site in order to enable communications between multiple VLANs. Four sub-interfaces are created in the KL-Router to enable the end devices in each VLAN to communicate with one another. The sub-interfaces are configured with the IP addresses of the VLAN default gateways based on each department.</p>
+
+
+<h2>KL Server Farm LAN</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>The KL Server Farm consists of three servers which are the DNS , web and FTP server. This server are grouped into one VLAN which has the VLAN ID of 50 and is named KL-ServerFarm. There is a centralized switch which acts as a access layer and also distributor layer switch. The switch-to-server connections are configured as access points to VLAN 50 whereas the switch-to-router connection is configured as a trunk port.</p>
+
+
+<h2>Server Configurations</h2>
+
+<p>The servers in KL Server Farm are configured statically to allow the management to customize the Ips of the servers manually.</p>
+
+<h4>KL-WEB-SERVER</h4>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h4>KL-DNS-SERVER</h4>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<h4>KL-FTP-SERVER</h4>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h2>VLAN Management-KL SERVER FARM</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h2>KL Sever Farm Trunking Port Configuration in Switch</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>The interface which connects to the router is configured as a trunk port with the 801.1q encapsulation mode.</p>
+
+
+<h2>KL Server Farm InterVLAN Routing Configuration</h2>
+
 
 <br />
 <br />
@@ -232,8 +318,148 @@ This project consists of a network prototype of an enterprise network. The netwo
 
 
 
+<h2>Hanoi Site WLAN</h2>
 
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>The Hanoi remote branch has a distributed switch in the center which connects the access layers to the core layer. Three access points are configured in the Hanoi LAN to facilitate a wireless architecture in the remote branch to ease the wireless communication and connections. Three VLANs are created in this LAN which are the management VLAN which is the native VLAN with the VLAN ID of 100, the R&D VLAN with the VLAN ID of 10 and also the Blackhole VLAN for unused ports. The DHCP server is configured in the Hanoi-Router which enables DHCP for the end devices in the network to obtain their IP addresses dynamically. This is done to improve the scalability of the network. The end devices in R&D Floor 1,2 and 3 access the VLAN 10 which is the R&D VLAN for communications whereas the Radius server and the admin PC is accessing the management VLAN. The radius server is configured with authorized usernames and password to authenticate the remote connection to network devices.</p>
+
+
+<h2>VLAN Management-Hanoi Site</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h2>Trunking Port Configuration in Hanoi Multilayered Switch</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h2>Hanoi Site InterVLAN Routing Configuration</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>2 sub-interfaces are configured in the Hanoi-Router for the management VLAN and also the R&D VLAN. Both interfaces are configured with the IP address of the default-gateway of both VLANs to enable connections with multiple VLANs.</p>
+
+<h2>AAA Radius Server Configuration in Hanoi</h2>
+
+<p>The radius server is configured with a AAA service where multiple authorized user credentials are stored for accessing the networking devices in the Hanoi LAN via SSH.</p>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h2>WAN Configurations</h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+<p>The WAN of this network consists of 3 routers and also a core ISP network which is a cluster of two ISP routers. The serial ports of the routers are configured with IP addresses in order to communicate with each other. The serial DCE ports are configured with the clock rate of 64000 to ensure a stable and fast connection to route packets.</p>
+
+
+<h2>OSPF Protocol Configuration in Routers</h2>
+
+<p> OSPF has been chosen as it does not have a limit to the hop count as the RIP routing protocol and also provides better load balancing than other routing protocol. OSPF is also adaptive to scalable networks which is suitable for enterprise level networks as they are constantly making changes to scale and improve their network.</p>
+
+
+<h4>Hanoi-Router</h4>
+
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+<h4>KL-Router</h4>
+
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+
+<h4>KL-Server-Farm-Router</h4>
+
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+
+<h4>ISP1-Router</h4>
+
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+
+
+
+<h4>ISP2-Router</h4>
+
+
+<br />
+<br />
+<p align="center">
+<img src="https://github.com/Iknowmyname/Network_Prototype/blob/main/Images_NP/VLAN-KL-Manufature.png" height="65%" width="65%" alt="sV"/>
+</p>
+<br />
+<br />
+ 
 <h3>TCP SYN Scan</h3>
+
 
 ```bash
 $ nmap -sS 192.168.74.133
